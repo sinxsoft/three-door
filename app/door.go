@@ -11,7 +11,7 @@ func (this * Door) GetType() int{
 }
 
 func (this *Door) Select() {
-	this.isSelect = true;
+	this.isSelect = true
 }
 
 func (this *Door) SetType( i int){
